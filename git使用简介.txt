@@ -1,0 +1,15 @@
+配置全局用户名以及邮箱：
+git config --global user.name "yuldong"
+git config --global user.email "yuldong@126.com"
+
+查看配置信息：
+git config -l
+
+仓库(repository)初始化：
+git init
+
+查看当前仓库状态：
+git status
+
+提交之前将文件添加到暂存库
+git add fileName
