@@ -7,9 +7,9 @@ git status
 
 git add fileName
 
-git commit -m ¡°comment¡±
+git commit -m "comment"
 
-git commit -a -m ¡°comment¡±
+git commit -a -m "comment"
 
 git log fileName
 
