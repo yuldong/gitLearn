@@ -14,3 +14,5 @@ git commit -a -m ¡°comment¡±
 git log fileName
 
 git add .
+
+git log --pretty=oneline

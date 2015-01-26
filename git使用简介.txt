@@ -22,3 +22,6 @@ git log fileName
 
 将所有文件添加到暂存库中
 git add .
+
+查看提交的信息并整理方便查看
+git log --pretty=oneline
