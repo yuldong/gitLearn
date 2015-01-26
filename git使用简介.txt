@@ -12,10 +12,10 @@ git status
 git add fileName
 
 将文件提交至主干
-git commit -m “注释”
+git commit -m "注释"
 
 综合提交并注释
-git commit -a -m “注释”
+git commit -a -m "注释"
 
 查看提交日志信息
 git log fileName

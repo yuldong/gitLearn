@@ -1,0 +1,9 @@
+GitHub地址
+SSH：git@github.com:yuldong/gitLearn.git
+HTTPS：https://github.com/yuldong/gitLearn.git
+
+与 GitHub 仓库进行关联
+git remote add origin SSH/HTTPS
+
+推行内容至GitHub
+git push -u origin master
