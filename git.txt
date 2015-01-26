@@ -13,6 +13,20 @@ git commit -a -m ¡°comment¡±
 
 git log fileName
 
+git diff fileName
+
 git add .
 
 git log --pretty=oneline
+
+git reset --hard HEAD~1
+
+git reset --hard commitID
+
+git reflog
+
+git reset HEAD fileName
+
+git checkout --fileName
+
+del fileName
