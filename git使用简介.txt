@@ -19,3 +19,6 @@ git commit -a -m “注释”
 
 查看提交日志信息
 git log fileName
+
+将所有文件添加到暂存库中
+git add .

@@ -1,0 +1,16 @@
+git config --global user.name "yuldong"
+git config --global user.email "yuldong@126.com"
+
+git config -l
+
+git status
+
+git add fileName
+
+git commit -m ¡°comment¡±
+
+git commit -a -m ¡°comment¡±
+
+git log fileName
+
+git add .
