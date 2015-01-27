@@ -7,3 +7,7 @@ git branch
 git checkout -b Name
 
 git branch -d Name
+
+git merge Name
+
+git push origin --delete Name
