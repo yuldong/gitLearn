@@ -20,3 +20,5 @@ git branch -l
 
 git push origin :Name
 
+git log --graph --pretty=oneline
+
