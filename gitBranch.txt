@@ -1,8 +1,9 @@
-创建分支
 git branch Name
 
-切换分支
 git checkout Name
 
-查看分支
 git branch
+
+git checkout -b Name
+
+git branch -d Name
