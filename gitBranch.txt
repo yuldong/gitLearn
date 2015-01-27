@@ -8,6 +8,8 @@ git checkout -b Name
 
 git branch -d Name
 
+git merge Name
+
 git push origin --delete Name
 
 git branch -m Name newName
@@ -17,3 +19,4 @@ git branch -r
 git branch -l
 
 git push origin :Name
+
