@@ -36,7 +36,9 @@ git stash drop
 
 git stash pop
 
-git diff master >mypat
+git diff master >PatchName
+
+git apply PatchName
 
 
 
