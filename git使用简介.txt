@@ -50,3 +50,6 @@ del fileName
 
 恢复删除文件后只能通过commitID进行恢复
 git reset --hard 
+
+暂存分支
+git stash
