@@ -26,5 +26,15 @@ git merge --no-ff -m "no fast forward" BranchName
 
 git log --graph --pretty=oneline --abbrev-commit
 
+git stash
+
+git stash list
+
+git stash apply 
+
+git stash drop
+
+git stash pop
+
 
 
