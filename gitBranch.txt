@@ -1,24 +1,30 @@
-git branch Name
+git branch BranchName
 
-git checkout Name
+git checkout BranchName
 
 git branch
 
-git checkout -b Name
+git checkout -b BranchName
 
-git branch -d Name
+git branch -d BranchName
 
-git merge Name
+git merge BranchName
 
-git push origin --delete Name
+git push origin --delete BranchName
 
-git branch -m Name newName
+git branch -m BranchName newBranchName
 
 git branch -a
 git branch -r
 git branch -l
 
-git push origin :Name
+git push origin :emptyBranchName
 
 git log --graph --pretty=oneline
+
+git merge --no-ff -m "no fast forward" BranchName
+
+git log --graph --pretty=oneline --abbrev-commit
+
+
 
