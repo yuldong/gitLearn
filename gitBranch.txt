@@ -40,5 +40,11 @@ git diff master >PatchName
 
 git apply PatchName
 
+git fetch 
+
+git pull
+
+git branch --set-upstream-to=origin/BranchName
+
 
 
