@@ -36,5 +36,7 @@ git stash drop
 
 git stash pop
 
+git diff master >mypat
+
 
 
