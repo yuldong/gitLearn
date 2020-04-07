@@ -21,6 +21,7 @@
 
 ## 提交文件
 - git commit -m "description"
+- git commit -amend `合并缓存的修改和上一次的提交，用新的快照替换上一个提交`
 
 ## 一步提交文件
 - git commit -a -m "description"
@@ -28,6 +29,8 @@
 ## 查看日志
 - git log fileName
 - git log --prettty=oneline
+- git log -p 
+- git log --grep "<pattern>"
 
 ## 查看修改的内容
 - git diff fileName
