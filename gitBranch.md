@@ -1,18 +1,20 @@
-git branch BranchName
+git branch <branch>
 
-git checkout BranchName
+git checkout <branch>
 
 git branch
 
-git checkout -b BranchName
+git checkout -b <branch>
 
-git branch -d BranchName
+git branch -d <branch> `这是一个安全的操作，Git 会阻止你删除包含未合并更改的分支。`
 
-git merge BranchName
+git branch -D <branch> `强制删除指定分支，即使包含未合并更改。`
 
-git push origin --delete BranchName
+git merge <branch>
 
-git branch -m BranchName newBranchName
+git push origin --delete <branch>
+
+git branch -m <old-branch-name> <new-branch-name>
 
 git branch -a
 git branch -r
