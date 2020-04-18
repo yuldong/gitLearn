@@ -16,6 +16,8 @@ git push origin --delete <branch>
 
 git branch -m <old-branch-name> <new-branch-name>
 
+git branch -f <branch-name> <commmitId> **将分支强制移动到`指定位置`**
+
 git branch -a
 git branch -r
 git branch -l

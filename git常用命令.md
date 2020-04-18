@@ -53,4 +53,7 @@
 ## 恢复修改的文件(已add,未commit)
 - git reset HEAD fileName *将内容从暂存库中移除,此后通过命令在工作区中修改*
 
+## rebase
+- git rebase -i 交互式调整
+
 
