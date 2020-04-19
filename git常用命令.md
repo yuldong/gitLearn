@@ -57,3 +57,4 @@
 - git rebase -i 交互式调整
 
 
+## cherry-pick
